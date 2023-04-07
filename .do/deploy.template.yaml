@@ -4,8 +4,7 @@ spec:
   - name: tooljet
     image:
       registry_type: DOCR
-      registry: internal-tooljet
-      repository: prdo-tooljet
+      repository: internal-tooljet/prdo-tooljet
       tag: latest
     run_command: "./server/scripts/digitalocean-postbuild.sh"
     instance_size_slug: "basic-s"
