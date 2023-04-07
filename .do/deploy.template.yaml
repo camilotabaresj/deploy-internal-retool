@@ -4,6 +4,7 @@ spec:
   - name: tooljet
     image:
       registry_type: DOCR
+      registry: internal-tooljet
       repository: prdo-tooljet
       tag: latest
     run_command: "./server/scripts/digitalocean-postbuild.sh"
